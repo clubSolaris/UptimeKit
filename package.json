@@ -27,6 +27,7 @@
     "dev:backend": "cd backend && node server.js",
     "dev:frontend": "cd frontend && npm run dev",
     "dev": "concurrently \"npm run dev:backend\" \"npm run dev:frontend\""
+    "start": "concurrently \"npm run dev:backend\" \"npm run dev:frontend\""
   },
   "devDependencies": {
     "concurrently": "^8.2.2"
